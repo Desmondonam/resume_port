@@ -429,3 +429,37 @@ h2 {
     font-size: 1.8rem;
   }
 }
+
+/* Cards styles  */
+.card {
+  width: 300px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #333;
+}
+
+.price {
+  font-size: 24px;
+  color: #555;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
