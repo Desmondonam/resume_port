@@ -188,16 +188,16 @@ h2 {
   text-align: center;
 }
 .team-box img {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   object-fit: contain;
   border-radius: 0.6rem;
   margin-bottom: 1em;
   overflow: hidden;
 }
 .team-box img:hover {
-  transform: scale(1.1);
-  transition: all 0.5s ease;
+  transform: scale(4.0);
+  transition: all 0.9s ease;
 }
 .team-box h1,
 .client-box h1 {
@@ -432,7 +432,7 @@ h2 {
 
 /* Cards styles  */
 .card {
-  width: 300px;
+  width: 450px;
   padding: 20px;
   background-color: #df5656;
   border-radius: 5px;
