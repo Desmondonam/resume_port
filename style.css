@@ -361,7 +361,7 @@ h2 {
   }
   .home-text h1 {
     font-size: 2rem;
-    /* text-align: center; */
+    text-align: center;
   }
   .home-text p {
     max-width: 280px;
