@@ -1,8 +1,8 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap");
 * {
-  margin: 0;
-  padding: 0;
+  margin: 5;
+  padding: 5;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
@@ -29,14 +29,14 @@ section {
 nav {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 20;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #1a112f;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
   width: 100%;
-  padding: 16px 100px;
+  padding: 12px 100px;
   z-index: 1000;
 }
 ul {
@@ -361,6 +361,7 @@ h2 {
   }
   .home-text h1 {
     font-size: 2rem;
+    /* text-align: center; */
   }
   .home-text p {
     max-width: 280px;
@@ -432,7 +433,7 @@ h2 {
 
 /* Cards styles  */
 .card {
-  width: 450px;
+  width: 400px;
   padding: 20px;
   background-color: #df5656;
   border-radius: 5px;
