@@ -429,7 +429,7 @@ h2 {
     font-size: 1.8rem;
   }
 }
-
+/* this is the section that need more review */
 /* Cards styles  */
 .card {
   width: 400px;
@@ -441,7 +441,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 20px;
+  margin: 10px;
 }
 
 .card h1 {
@@ -455,13 +455,13 @@ h2 {
 }
 
 button {
-  padding: 10px 20px;
+  padding: 0px 0px;
   background-color: #4caf50;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 button:hover {
