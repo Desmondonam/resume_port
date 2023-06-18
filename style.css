@@ -1,8 +1,8 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap");
 * {
-  margin: 5;
-  padding: 5;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
@@ -29,14 +29,14 @@ section {
 nav {
   position: fixed;
   top: 0;
-  left: 20;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #1a112f;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
   width: 100%;
-  padding: 12px 100px;
+  padding: 16px 100px;
   z-index: 1000;
 }
 ul {
@@ -188,16 +188,16 @@ h2 {
   text-align: center;
 }
 .team-box img {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   object-fit: contain;
   border-radius: 0.6rem;
   margin-bottom: 1em;
   overflow: hidden;
 }
 .team-box img:hover {
-  transform: scale(4.0);
-  transition: all 0.9s ease;
+  transform: scale(1.1);
+  transition: all 0.5s ease;
 }
 .team-box h1,
 .client-box h1 {
@@ -233,7 +233,7 @@ h2 {
   justify-content: center;
   background: #dbefe4;
   color: #1a112f;
-  height: 400px;
+  height: 250px;
   border-radius: 0.5rem;
 }
 .color {
@@ -345,7 +345,7 @@ h2 {
     font-size: 2.5rem;
   }
   .email-box {
-    width: 270px;
+    width: 370px;
   }
   .home-img {
     width: 350px;
@@ -361,17 +361,12 @@ h2 {
   }
   .home-text h1 {
     font-size: 2rem;
-    text-align: center;
-  }
-  home-text h2 {
-    font-size: 2rem;
-    text-align: center;
   }
   .home-text p {
-    max-width: 280px;
+    max-width: 320px;
   }
   .email-box {
-    width: 204px;
+    width: 304px;
   }
 }
 @media (max-width: 696px) {
@@ -433,42 +428,4 @@ h2 {
   .home-text h1 {
     font-size: 1.8rem;
   }
-}
-
-/* Cards styles  */
-.card {
-  width: 400px;
-  padding: 20px;
-  background-color: #df5656;
-  border-radius: 5px;
-  text-align: center;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 20px;
-}
-
-.card h1 {
-  color: #1d1c1c;
-}
-
-.price {
-  font-size: 24px;
-  color: #555;
-  margin-top: 10px;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-button:hover {
-  background-color: #45a049;
 }
