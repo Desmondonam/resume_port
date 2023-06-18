@@ -363,11 +363,15 @@ h2 {
     font-size: 2rem;
     text-align: center;
   }
+  home-text h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
   .home-text p {
     max-width: 280px;
   }
   .email-box {
-    width: 304px;
+    width: 204px;
   }
 }
 @media (max-width: 696px) {
